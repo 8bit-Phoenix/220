@@ -9,7 +9,7 @@ I certify that this assignment is entirely my own work.
 """
 
 
-from graphics import *
+from graphics import GraphWin, Line, Point, Circle, Polygon, Text, update
 
 
 def main():
