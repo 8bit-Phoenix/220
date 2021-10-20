@@ -1,28 +1,36 @@
 def calc_area():
-    length = eval (input("Enter the length:"))
-    width = eval (input("Enter the width:"))
+    length = eval(input("Enter the length:"))
+    width = eval(input("Enter the width:"))
     area = length * width
-    print("Area =",area)
+    print("Area =", area)
+
+
 def calc_volume():
-    length = eval (input("Enter the length:"))
-    width = eval (input("Enter the width:"))
-    height = eval (input("Enter the height:"))
+    length = eval(input("Enter the length:"))
+    width = eval(input("Enter the width:"))
+    height = eval(input("Enter the height:"))
     area = length * width * height
-    print("Area =",area)
+    print("Area =", area)
+
+
 def calc_shot():
-    totalshots = eval(input("Enter the total shots:"))
-    shotsmade = eval(input("Enter the shots made:"))
-    precnt = shotsmade / totalshots
-    print("Precnt =",precnt)
+    total_shots = eval(input("Enter the total shots:"))
+    shots_made = eval(input("Enter the shots made:"))
+    percent = shots_made / total_shots
+    print("Percent =", percent)
+
+
 def calc_coffee():
-    numberofpounds = eval(input("Enter the numberofpounds:"))
-    coffecost = 10.50
-    shippingcost = 0.86
-    fixedcost = 1.50
-    cost = numberofpounds * coffecost + numberofpounds * shippingcost + fixedcost
-    print("Cost =",cost)
+    number_of_pounds = eval(input("Enter the number of pounds you want to buy:"))
+    coffee_cost = 10.50
+    shipping_cost = 0.86
+    fixed_cost = 1.50
+    cost = number_of_pounds * coffee_cost + number_of_pounds * shipping_cost + fixed_cost
+    print("Cost =", cost)
+
+
 def calc_kilometers():
-    kilometers = eval(input("Enter the numberofkilometers:"))
-    kilometerstomiles = 1.61
-    miles = kilometers / kilometerstomiles
-    print("Miles =",miles)
+    kilometers = eval(input("Enter the number of kilometers:"))
+    kilometers_to_miles = 1.61
+    miles = kilometers / kilometers_to_miles
+    print("Miles =", miles)
