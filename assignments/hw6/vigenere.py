@@ -52,7 +52,14 @@ def main():
     encode_box.draw(win)
     encode_text = draw_text(Point(5, 5), "Encode", win)
 
-    win.getMouse()
+    fake = 0
+    while fake == 0:
+        idk = win.getMouse()
+        got_it = idk.getX()
+        it_got = idk.getY()
+        if 4 <= got_it <= 6 and 4 <= it_got <= 6:
+            fake = 1
+
     message = message_entry.getText()
     keyword = keyword_entry.getText()
     encode_box.undraw()
